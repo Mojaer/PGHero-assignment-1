@@ -4,7 +4,7 @@
 
 }
 
-/* banner styles */
+/* banner styles ---------------------------------------------------------------*/
 
 .header {
     background-image: url("/images/banner/banner3.png");
@@ -40,7 +40,7 @@ header .btn-white {
     margin-bottom: 166px;
 }
 
-/* failure section styles */
+/* failure section styles -------------------------------------------------------------- */
 
 .failures {
     display: flex;
@@ -76,4 +76,36 @@ header .btn-white {
 .failure-contents li {
     font-size: 16px;
     margin-bottom: 8px;
+}
+
+/* style plan ------------------------------------------------------------------------------- */
+.plan-sections {
+    text-align: center;
+    margin: 50px 230px 130px 230px;
+}
+
+.plan-tittle {
+    margin-bottom: 56px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-content {
+    display: flex;
+    margin: 0 200px 0 200px;
+    gap: 86px;
+    align-items: baseline;
+}
+
+.plan-name {
+    margin: 16px 0 16px 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-destiny {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
 }
