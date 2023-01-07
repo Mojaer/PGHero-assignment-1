@@ -4,6 +4,27 @@
 
 }
 
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding-top: 50px;
+
+}
+
+.navbar li a {
+    color: #F3F3F3;
+    text-decoration: none;
+    background-color: rgb(38, 38, 134);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar li a:hover {
+    background-color: rgb(236, 37, 37);
+}
+
 /* banner styles ---------------------------------------------------------------*/
 
 .header {
@@ -79,7 +100,7 @@ header .banner-description {
 }
 
 .failure-contents {
-    list-style-image: url('images/icons/check-tick-icon.png');
+    list-style-image: url('/images/icons/check-tick-icon.png');
 }
 
 .failure-contents li {
