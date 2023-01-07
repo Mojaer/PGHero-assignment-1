@@ -123,8 +123,9 @@ header .banner-description {
 
 .calling-section {
     margin: 130px 230px;
-    background-image: url('/images/gradient1.png');
+    background-image: url('/images/gradient1.png'), url('/images/watch.png');
     background-repeat: no-repeat;
+
 }
 
 .calling-content {
