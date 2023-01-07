@@ -146,6 +146,7 @@ header .banner-description {
     margin: 130px 230px;
     background-image: url('/images/gradient1.png'), url('/images/watch.png');
     background-repeat: no-repeat;
+    background-blend-mode: multiply;
 
 }
 
