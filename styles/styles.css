@@ -79,7 +79,7 @@ header .banner-description {
 }
 
 .failure-contents {
-    list-style-image: url('/images/icons/check-tick-icon.png');
+    list-style-image: url('images/icons/check-tick-icon.png');
 }
 
 .failure-contents li {
