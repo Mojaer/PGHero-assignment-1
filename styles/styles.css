@@ -32,12 +32,21 @@ header .banner-description {
 
 }
 
-header .btn-white {
+.btn-white {
     padding: 21px 25px 20px 26px;
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
     margin-bottom: 166px;
+}
+
+.btn-blue {
+    padding: 21px 25px 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
 }
 
 /* failure section styles -------------------------------------------------------------- */
@@ -93,7 +102,6 @@ header .btn-white {
 
 .plan-content {
     display: flex;
-    margin: 0 200px 0 200px;
     gap: 86px;
     align-items: baseline;
 }
@@ -108,4 +116,79 @@ header .btn-white {
     color: #737272;
     font-weight: 500;
     font-size: 25px;
+}
+
+/* calling section style  ------------------------------------------------------*/
+
+
+.calling-section {
+    margin: 130px 230px;
+    background-image: url('/images/gradient1.png');
+    background-repeat: no-repeat;
+}
+
+.calling-content {
+    padding: 59px 615px 59px 64px;
+
+}
+
+.calling-section .calling-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+/* footer style -----------------------------------------------------------------*/
+footer {
+    background: #151414;
+    color: #F8F8F8;
+}
+
+footer section {
+    display: flex;
+    padding: 130px 230px 130px 230px;
+    gap: 330px;
+}
+
+footer .future-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+footer .future-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    max-width: 485px;
+    max-height: 78px;
+
+}
+
+.email,
+.phone {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.contact-icon img {
+    margin: 16px 17px 0 0;
+}
+
+.subscribe-tittle {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+}
+
+.email-form input[type='email'] {
+    padding: 21px 158px 22px 21px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #F3F3F3;
+    background: #151414;
+    margin-bottom: 16px;
+    font-size: 18px;
 }
