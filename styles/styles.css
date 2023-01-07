@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* banner styles */
+
+.header {
+    background-image: url("/images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    padding: 210px 230px 160px 860px;
+    text-align: right;
+
+}
+
+header .banner-tittle {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+header .banner-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 0 32px 130px;
+
+}
+
+header .btn-white {
+    padding: 21px 25px 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    margin-bottom: 166px;
+}
+
+/* failure section styles */
+
+.failures {
+    display: flex;
+    margin: 130px 320px 130px 205px;
+    gap: 87px;
+    align-items: center;
+}
+
+.failure-items {
+    max-width: 416px;
+    max-width: 400px;
+    margin-top: 200px;
+}
+
+.failure-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-description {
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+
+}
+
+.failure-contents {
+    list-style-image: url('/images/icons/check-tick-icon.png');
+}
+
+.failure-contents li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
